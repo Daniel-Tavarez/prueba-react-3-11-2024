@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.App .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 400px;
+  padding: 20px;
+}
+
+.App .form input {
+  width: 80%;
+  border-radius: 10px;
+  height: 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.App .form button {
+  padding: 10px 30px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.App .form .alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ddd;
+  display: flex;
+}
+
+.App .form .tooltip {
+}
